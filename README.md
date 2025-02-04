@@ -1,6 +1,6 @@
 # Apartment Management System
 
-This project is a web application built using Python Flask and MySQL. It provides a layout of homes in an apartment complex, indicating whether a house is free or occupied. Users can choose an empty house, simulate payment, and manage their maintenance costs.
+This project is a web application built using Python and MySQL. It provides a layout of homes in an apartment complex, indicating whether a house is free or occupied. Users can choose an empty house, simulate payment, and manage their maintenance costs.
 
 ## Features
 
@@ -11,9 +11,9 @@ This project is a web application built using Python Flask and MySQL. It provide
 
 ## Tech Stack
 
-- **Backend**: Python Flask
+- **Backend**: Python
 - **Database**: MySQL
-- **Frontend**: HTML/CSS
+- **Frontend**: HTML/CSS, Tkinter GUI
 
 ## Installation
 
