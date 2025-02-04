@@ -17,41 +17,28 @@ This project is a web application built using Python and MySQL. It provides a la
 
 ## Installation
 
-1. Clone the repository:
-
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/yourusername/apartment.git
     cd apartment
     ```
 
-2. Create and activate a virtual environment:
-
+2. **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required dependencies:
-
+3. **Install the required dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Set up the MySQL database:
-
-    - Create a new MySQL database.
-    - Update the database configuration in `config.py` with your MySQL credentials.
-    - Run the migration script to create the necessary tables:
-
+4. **Run the Tkinter application:**
     ```bash
-    flask db upgrade
+    python main.py  # Replace 'main.py' with your actual script name
     ```
 
-5. Run the application:
-
-    ```bash
-    flask run
-    ```
 
 6. Open the application in your web browser at `http://127.0.0.1:5000`.
 
